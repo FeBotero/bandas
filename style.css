@@ -1,0 +1,53 @@
+*{
+    background: rgb(74, 88, 95);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+table,td, tr{
+    width: 35rem;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+tbody{
+    color:white
+}
+thead{
+    font-weight: bold;
+    font-size: large;
+    color:rgb(68, 20, 64);
+    
+}
+#id{
+    display: none;
+}
+input{
+    background-color: white;
+    height: 2rem;
+    width: 15rem;
+    border: none;
+    border-radius: 8px;
+    font-size: large;
+}
+button{
+    background: powderblue;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 8px;
+    outline: none;
+
+}
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.exibe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
