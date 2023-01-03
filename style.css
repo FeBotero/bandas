@@ -1,28 +1,42 @@
-*{
-    background: rgb(74, 88, 95);
-}
 body{
+    
     display: flex;
     flex-direction: column;
-    
     align-items: center;
+    background-image: url(juke.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    
+    width: 40rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #392b6ba6;
+    border-radius: 8px;
 }
 table,td, tr{
     width: 35rem;
     border: 1px solid gray;
     border-collapse: collapse;
     text-align: center;
+
+    
     
 }
 h1{
-color:white;}
+color:white
+}
+
 tbody{
-    color:white
+  
 }
 thead{
     font-weight: bold;
     font-size: large;
-    color:rgb(68, 20, 64);
+    
     
 }
 #id{
@@ -52,4 +66,6 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-weight: bold;
+    color: white;
 }
